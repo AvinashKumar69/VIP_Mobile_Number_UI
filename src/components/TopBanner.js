@@ -1,4 +1,7 @@
 import React from 'react';
+import Slide_0 from '../assets/slide-0.jpg';
+import Slide_1 from '../assets/slide-1.jpg';
+import Slide_2 from '../assets/slide-2.jpg';
 
 
 
@@ -30,13 +33,13 @@ const TopBanner = () => {
         <div id="carouselTopBannerSlidesOnly" className="carousel slide carousel-fade overflow-hidden" data-bs-ride="carousel">
             <div className="carousel-inner">
                 {/* <div className="carousel-item active" data-bs-interval="5000">
-                    <img src="https://www.vipnumberstore.in/assets/img/slide-0.jpg" className="d-block w-full" alt="slide1" />
+                    <img src={Slide_0} className="d-block w-full" alt="slide1" />
                 </div>
                 <div className="carousel-item" data-bs-interval="5000">
-                    <img src="https://www.vipnumberstore.in/assets/img/slide-1.jpg" className="d-block w-100" alt="slide2" />
+                    <img src={Slide_1} className="d-block w-100" alt="slide2" />
                 </div> */}
                 <div className="carousel-item" data-bs-interval="5000">
-                    <img src="https://www.vipnumberstore.in/assets/img/slide-2.jpg" className="d-block w-100" alt="slide3" />
+                    <img src={Slide_2} className="d-block w-100" alt="slide3" />
                 </div>
             </div>
         </div>

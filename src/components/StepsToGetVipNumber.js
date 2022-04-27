@@ -27,21 +27,21 @@ const StepsToGetVipNumber = () => {
                 <div className='flex flex-row items-center justify-center xs:flex xs:flex-col'>
 
                     <div className='flex flex-row'>
-                        <div className="mx-3 w-uto h-auto rounded-lg bg-white xyzabc1">
+                        <div className="mx-3 h-auto rounded-lg border-l-2 border-b-2 border-green-300 bg-white xyzabc1">
                             <img src={Step1} className='' />
                         </div>
 
-                        <div className="mx-3 w-uto h-auto rounded-lg bg-white xyzabc1">
+                        <div className="mx-3 h-auto rounded-lg border-l-2 border-b-2 border-purple-300 bg-white xyzabc1">
                             <img src={Step2} className='' />
                         </div>
                     </div>
 
                     <div className='flex flex-row'>
-                        <div className="mx-3 w-uto h-auto rounded-lg bg-white xyzabc1">
+                        <div className="mx-3 h-auto rounded-lg border-l-2 border-b-2 border-red-300 bg-white xyzabc1">
                             <img src={Step3} className='' />
                         </div>
 
-                        <div className="mx-3 w-uto h-auto rounded-lg bg-white xyzabc1 step4">
+                        <div className="mx-3 h-auto rounded-lg border-l-2 border-b-2 border-blue-300 bg-white xyzabc1 step4">
                             <img src={Step4} className='' />
                         </div>
                     </div>

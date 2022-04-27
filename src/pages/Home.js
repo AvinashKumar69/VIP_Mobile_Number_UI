@@ -1,4 +1,5 @@
 import React from 'react';
+import CustomizeNumber from '../components/CustomizeNumber';
 import GIFbanner from '../components/GIFbanner';
 import NavBar from '../components/NavBar';
 import NewLaunchesCarousel from '../components/NewLaunchesCarousel';
@@ -15,6 +16,7 @@ const Home = () => {
             <NewLaunchesCarousel />
             <StepsToGetVipNumber />
             <GIFbanner />
+            <CustomizeNumber />
         </>
     )
 }
