@@ -18,10 +18,10 @@
     }
 } */
 
-@media only screen and (min-width: 769px) {
+/* @media only screen and (min-width: 769px) {
     .bannerNavContainer {
         position: relative;
-        height: 600px;
+        height: 720px;
     }
 
     .carousel {
@@ -36,7 +36,7 @@
         background: #fff;
         width: 100%;
     }
-}
+} */
 
 /* @media only screen and (min-width: 481px) and (max-width: 768px) {
     .carousel {

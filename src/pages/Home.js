@@ -17,7 +17,7 @@ const Home = () => {
                 <NavBar />
                 <TopBanner />
             </div>
-            <SearchBar />
+            {/* <SearchBar /> */}
             <NewLaunchesCarousel />
             <StepsToGetVipNumber />
             <GIFbanner />
