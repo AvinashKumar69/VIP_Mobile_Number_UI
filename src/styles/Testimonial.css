@@ -121,6 +121,7 @@ div.carousel {
     .myCarousel {
         background: #fafafa;
         margin-top: -9%;
+        margin-bottom: 10px;
         width: 88%;
         margin-left: auto;
         margin-right: auto;
