@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+import '../styles/NewLaunchesCarousel.css';
 
 
 
@@ -67,7 +68,7 @@ const NewLaunchesCarousel = () => {
     return (
         <>
             <div className='bg-gray-100'>
-                <div className='flex flex-col items-center mt-5 text-3xl font-bold'>
+                <div className='flex flex-col items-center mt-5 pt-5 text-3xl font-bold'>
                     <span className='text-5xl' style={{ color: 'rgba(242,56,0,1)' }}>LAUNCHES</span> NEW NUMBERS
                 </div>
 

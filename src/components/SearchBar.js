@@ -11,9 +11,23 @@ const SearchBar = () => {
     }, [])
 
     return (
-        <div className="">
-            SearchBar
-        </div>
+        <>
+            <div className='flex flex-row py-16 items-center justify-content mx-auto'>
+
+                <div className=''>
+                    dropdown
+                </div>
+
+                <div className=''>
+                    input field
+                </div>
+
+                <div className=''>
+                    button
+                </div>
+
+            </div>
+        </>
     )
 }
 
