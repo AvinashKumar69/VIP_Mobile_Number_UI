@@ -4,10 +4,10 @@ import GIFbannerImage from '../assets/GIF-banner.gif';
 
 const GIFbanner = () => {
     return (
-        <div className='h-auto mt-5'
-            style={{ width: '100%' }}
-        >
-            <img className='' src={GIFbannerImage} />
+        <div className='mt-5'>
+            <div className=''>
+                <img className='w-full object-cover' src={GIFbannerImage} />
+            </div>
         </div>
     )
 }

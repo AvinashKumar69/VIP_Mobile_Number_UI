@@ -4,6 +4,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+
+    fontFamily: {
+      'newFont': ['"Comfortaa"', 'cursive']
+    },
+
     screens: {
       'xs': { 'min': '320px', 'max': '480px' },
       // => @media (min-width: 640px and max-width: 767px) // Mobile devices

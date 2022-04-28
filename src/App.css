@@ -18,6 +18,36 @@
     }
 } */
 
+@media only screen and (min-width: 769px) {
+    .bannerNavContainer {
+        position: relative;
+        height: 600px;
+    }
+
+    .carousel {
+        position: absolute;
+        top: 0;
+    }
+
+    .vipNavBar {
+        position: absolute;
+        top: 30px;
+        z-index: 10;
+        background: #fff;
+        width: 100%;
+    }
+}
+
+/* @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .carousel {
+        margin-top: 100px;
+    }
+} */
+
+
+
+
+
 /* ------------------- */
 
 @media only screen and (max-width: 480px) {
@@ -101,13 +131,11 @@
 .xyzabc2 {
     box-shadow: 0 14px 24px rgb(0 0 0 / 20%);
     z-index: 399;
-    transform: scale(1.1);
-    transition: all .25s ease;
 }
 
 .xyzabc2:hover {
     box-shadow: 0 14px 24px rgb(0 0 0 / 20%);
     z-index: 400;
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: all .25s ease;
 }

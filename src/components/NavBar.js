@@ -14,7 +14,7 @@ const NavBar = () => {
     }, [])
 
     return (
-        <nav className="bg-white text-black border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800 lg:mx-20">
+        <nav className="vipNavBar bg-white text-black border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
             <div className="container flex flex-wrap justify-between items-center mx-auto" data-aos='flip-left'>
                 <a href="/" className="flex items-center">
                     <img src={Logo} className="mr-3 h-32 w-32" alt="Logo" />
