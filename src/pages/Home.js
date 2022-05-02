@@ -1,5 +1,6 @@
 import React from 'react';
 import AlternateNavbar from '../components/AlternateNavbar';
+import AltNavbar222 from '../components/AltNavbar222';
 import CustomizeNumber from '../components/CustomizeNumber';
 import Footer from '../components/Footer';
 import GIFbanner from '../components/GIFbanner';
@@ -15,7 +16,8 @@ const Home = () => {
     return (
         <>
             {/* <NavBar /> */}
-            <AlternateNavbar />
+            {/* <AlternateNavbar /> */}
+            <AltNavbar222 />
             <TopBanner />
             <NewLaunchesCarousel />
             <StepsToGetVipNumber />
