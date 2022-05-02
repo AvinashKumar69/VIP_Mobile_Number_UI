@@ -1,4 +1,5 @@
 import React from 'react';
+import AlternateNavbar from '../components/AlternateNavbar';
 import CustomizeNumber from '../components/CustomizeNumber';
 import Footer from '../components/Footer';
 import GIFbanner from '../components/GIFbanner';
@@ -13,11 +14,9 @@ import TopBanner from '../components/TopBanner';
 const Home = () => {
     return (
         <>
-            <div className='bannerNavContainer'>
-                <NavBar />
-                <TopBanner />
-            </div>
-            {/* <SearchBar /> */}
+            {/* <NavBar /> */}
+            <AlternateNavbar />
+            <TopBanner />
             <NewLaunchesCarousel />
             <StepsToGetVipNumber />
             <GIFbanner />

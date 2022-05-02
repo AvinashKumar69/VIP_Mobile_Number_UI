@@ -1,38 +1,46 @@
 import React from 'react';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Slide_0 from '../assets/slide-0.jpg';
-import Slide_1 from '../assets/slide-1.jpg';
-import Slide_2 from '../assets/slide-2.jpg';
+import Typewriter from "typewriter-effect";
+import TopBannerImage2 from '../assets/TopBannerImage2.jpg';
+import { ParticlesContainer } from './ParticlesBackground';
+
 
 
 
 const TopBanner = () => {
+
     return (
-        <div id="carouselExampleSlidesOnly" className="carousel slide relative" data-bs-ride="carousel">
-            <div className="carousel-inner relative w-full overflow-hidden">
-                <div className="carousel-item active relative float-left w-full">
-                    <img
-                        src={Slide_0}
-                        className="block w-full"
-                        alt=""
-                    />
+        <>
+            {/* <ParticlesContainer /> */}
+            <div className='flex flex-row items-center justify-between px-20 py-5 xs:flex-col'>
+                <div className='flex flex-col'>
+                    <h3 className='text-3xl font-bold text-gray-600'>
+
+                        <Typewriter
+                            options={{
+                                strings: [
+                                    'BOOK YOUR CHOICE NUMBER <br /> EASILY ONLINE WITH',
+                                    'FASTEST ACTIVATION <br /> NOW JUST A CLICK AWAY!',
+                                    'CHOOSE YOUR VIP NUMBER <br /> GET STARTED WITH...'
+                                ],
+                                autoStart: true,
+                                loop: true,
+                                pauseFor: 2000,
+                            }}
+                        />
+
+                    </h3>
+                    <h2 className='text-5xl font-bold text-orange-600'>
+                        VIP NUMBER STORE
+                    </h2>
                 </div>
-                <div className="carousel-item relative float-left w-full">
-                    <img
-                        src={Slide_1}
-                        className="block w-full"
-                        alt=""
-                    />
+
+                <div className=''>
+                    <img className='object-cover' src={TopBannerImage2} />
                 </div>
-                <div className="carousel-item relative float-left w-full">
-                    <img
-                        src={Slide_2}
-                        className="block w-full"
-                        alt=""
-                    />
-                </div>
+
             </div>
-        </div>
+        </>
+
     )
 }
 

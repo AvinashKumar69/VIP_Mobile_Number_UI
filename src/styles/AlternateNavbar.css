@@ -1,0 +1,65 @@
+.mobile-view {
+    position: absolute;
+    top: 96px;
+    left: 0px;
+    z-index: 1;
+}
+
+/* .xyzabc9 {
+    box-shadow: 0 14px 24px rgb(0 0 0 / 20%);
+    z-index: 399;
+} */
+
+.xyzabc-desktop-items:hover {
+    box-shadow: 0 14px 24px rgb(0 0 0 / 20%);
+    z-index: 400;
+    transform: scale(1.1);
+    transition: all .25s ease;
+}
+
+
+
+/* ---------------Custom Border Animation---------------- */
+
+/* .svg-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    width: 320px;
+}
+
+.shape {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+    fill: transparent;
+    stroke: #b56d21;
+    border-bottom: 5px solid black;
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+.svg-wrapper:hover .shape {
+    stroke-width: 2px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 760;
+} */
+
+
+@media (max-width: 480px) {
+    .desktop-view {
+        display: none;
+    }
+}
+
+@media (min-width: 481px) {
+    .mobile-view {
+        display: none;
+    }
+}
+
+@media (min-width: 481px) {
+    .hamburger-menu-icon {
+        display: none;
+    }
+}
